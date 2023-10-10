@@ -1,0 +1,6 @@
+s = input('Digite algo: ')
+print(type(s))
+print('Só maiusculo?: ', s.isupper())
+print('Só minusculo?: ', s.islower())
+print('É numero?: ', s.isnumeric())
+print('é numero e letra?: ', s.isalnum())
